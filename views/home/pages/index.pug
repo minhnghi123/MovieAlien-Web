@@ -1,0 +1,239 @@
+meta(charset="UTF-8")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+title MovieAlien
+link(rel="stylesheet", href="css/style.css")
+link(rel="stylesheet", href="css/swiper-bundle.min.css")
+link(rel="shortcut icon", href="image/img/fav-icon.png", type="image/x-icon")
+link(href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css", rel="stylesheet")
+header
+  .nav.container
+    a.logo(href="/")
+      span.white Movie  
+      span Aliens
+    .search-box
+      input#search-input(type="search", name, placeholder="Search movie")
+      i.bx.bx-search-alt
+    a.user(href="#")
+      img.user-img(src="image/img/user2.jpg", alt)
+    .navbar
+      a.nav-link.nav-active(href="#home")
+        i.bx.bxs-home-smile
+        span.nav-link-title Home
+      a.nav-link(href="#popular")
+        i.bx.bxs-hot
+        span.nav-link-title Trending
+      a.nav-link(href="jumanji.html")
+        i.bx.bx-compass
+        span.nav-link-title Explore
+      a.nav-link(href="#movies")
+        i.bx.bxs-tv
+        span.nav-link-title Movies
+      //
+         <a href="#webseries" class="nav-link">
+                            <i class='bx bx-tv'></i>
+                            <span class="nav-link-title">Webseries</span>
+                        </a> 
+section.home.container#home
+  img.home-img(src="image/img/home-background 2.jpg", alt)
+  .home-text
+    h1.home-title
+      | Spider-Man:
+      br
+      | Across the Spiderverse
+    p Releasing 2nd June
+    a.watch-btn(href="#")
+      i.bx.bxs-right-arrow
+      span Watch the trailer
+section.popular.container#popular
+  .heading
+    h2.heading-title Popular Movies
+    //  Swipper Buttons 
+    .swiper-btn
+      .swiper-button-prev
+      .swiper-button-next
+  .popular-content.swiper
+    .swiper-wrapper
+      //  Movie 1 
+      .swiper-slide
+        .movie-box
+          img.movie-box-img(src="image/img/popular-movie-1.jpg", alt)
+          .box-text
+            h2.movie-title.
+              
+              Spider-Man: No way Home
+              
+            span.movie-type Action
+            a.watch-btn.play-btn(href="#")
+              i.bx.bxs-right-arrow
+      //  Movie 2 
+      .swiper-slide
+        .movie-box
+          img.movie-box-img(src="image/img/movie-11.png", alt)
+          .box-text
+            h2.movie-title.
+              
+              Sonic 2: The Hedgehog
+              
+            span.movie-type Action
+            a.watch-btn.play-btn(href="#")
+              i.bx.bxs-right-arrow
+      //  Movie 3 
+      .swiper-slide
+        .movie-box
+          img.movie-box-img(src="image/img/movie-22.png", alt)
+          .box-text
+            h2.movie-title.
+              
+              Morbius
+              
+            span.movie-type Action
+            a.watch-btn.play-btn(href="#")
+              i.bx.bxs-right-arrow
+      //  Movie 4 
+      .swiper-slide
+        .movie-box
+          img.movie-box-img(src="image/img/popular-movie-3.jpg", alt)
+          .box-text
+            h2.movie-title.
+              
+              LoKi
+              
+            span.movie-type Action
+            a.watch-btn.play-btn(href="#")
+              i.bx.bxs-right-arrow
+      //  Movie 5 
+      .swiper-slide
+        .movie-box
+          img.movie-box-img(src="image/img/movie-33.png", alt)
+          .box-text
+            h2.movie-title.
+              
+              Adam Project
+              
+            span.movie-type Sci-fi
+            a.watch-btn.play-btn(href="#")
+              i.bx.bxs-right-arrow
+      //  Movie 6 
+      .swiper-slide
+        .movie-box
+          img.movie-box-img(src="image/img/popular-movie-7.jpg", alt)
+          .box-text
+            h2.movie-title.
+              
+              S.H.I.E.L.D
+              
+            span.movie-type Action
+            a.watch-btn.play-btn(href="#")
+              i.bx.bxs-right-arrow
+      //  Movie 7 
+      .swiper-slide
+        .movie-box
+          img.movie-box-img(src="image/img/movie-77.png", alt)
+          .box-text
+            h2.movie-title.
+              
+              Death on the Nile
+              
+            span.movie-type Thriller
+            a.watch-btn.play-btn(href="#")
+              i.bx.bxs-right-arrow
+section.movies.container#movies
+  .heading
+    h2.heading-title Movies
+  .movies-content
+    //  Movie 1 
+    .movie-box
+      img.movie-box-img(src="image/img/movie-1.jpg", alt)
+      .box-text
+        h2.movie-title.
+          
+          Jumanji: Welcome to the Jungle
+          
+        span.movie-type Adventure
+        a.watch-btn.play-btn(href="jumanji.html")
+          i.bx.bxs-right-arrow
+    //  Movie 2
+    .movie-box
+      img.movie-box-img(src="image/img/popular-movie-2.jpg", alt)
+      .box-text
+        h2.movie-title.
+          
+          Jungle Cruise
+          
+        span.movie-type Adventure
+        a.watch-btn.play-btn(href="junglecruise.html")
+          i.bx.bxs-right-arrow
+    //  Movie 3 
+    .movie-box
+      img.movie-box-img(src="image/img/movie-3.jpg", alt)
+      .box-text
+        h2.movie-title.
+          
+          Shang-Chi
+          
+        span.movie-type Action
+        a.watch-btn.play-btn(href="shangchi.html")
+          i.bx.bxs-right-arrow
+    //  Movie 4 
+    .movie-box
+      img.movie-box-img(src="image/img/movie-4.jpg", alt)
+      .box-text
+        h2.movie-title.
+          
+          Eternals
+          
+        span.movie-type Action
+        a.watch-btn.play-btn(href="eternals.html")
+          i.bx.bxs-right-arrow
+    //  Movie 5 
+    .movie-box
+      img.movie-box-img(src="image/img/movie-55.png", alt)
+      .box-text
+        h2.movie-title.
+          
+          Batman
+          
+        span.movie-type Action
+        a.watch-btn.play-btn(href="batman.html")
+          i.bx.bxs-right-arrow
+    //  Movie 6 
+    .movie-box
+      img.movie-box-img(src="image/img/movie-6.png", alt)
+      .box-text
+        h2.movie-title.
+          
+          Uncharted
+          
+        span.movie-type Thriller
+        a.watch-btn.play-btn(href="uncharted.html")
+          i.bx.bxs-right-arrow
+    //  Movie 7 
+    .movie-box
+      img.movie-box-img(src="image/img/movie-7.jpg", alt)
+      .box-text
+        h2.movie-title.
+          
+          Wolverine
+          
+        span.movie-type Action
+        a.watch-btn.play-btn(href="wolverine.html")
+          i.bx.bxs-right-arrow
+    //  Movie 8
+    .movie-box
+      img.movie-box-img(src="image/img/popular-movie-8.jpg", alt)
+      .box-text
+        h2.movie-title.
+          
+          Flash
+          
+        span.movie-type Action
+        a.watch-btn.play-btn(href="flash.html")
+          i.bx.bxs-right-arrow
+//
+   <div class="next-page">
+          <a href="#" class="next-btn">Next Page</a>
+      </div> 
+.copyright
+  p © MinhNgheee All Rights Resolved
+script(src="js/swiper-bundle.min.js")
+script(src="js/main.js")
