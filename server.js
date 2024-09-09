@@ -14,6 +14,11 @@ app.use(express.static("public"));
 app.get("/", (req, res) => {
   res.render("home/pages/index");
 });
+
+app.get("/batman", (req, res) => {
+  res.render("home/pages/batman.pug");
+});
+
 app.listen(port, () => {
   console.log(`Server running at ${port}`);
 });
