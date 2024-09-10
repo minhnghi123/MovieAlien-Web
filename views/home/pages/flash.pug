@@ -1,0 +1,96 @@
+meta(charset="UTF-8")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+title Flash
+link(rel="stylesheet", href="/css/style.css")
+link(rel="shortcut icon", href="/image/img/fav-icon.png", type="image/x-icon")
+link(href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css", rel="stylesheet")
+header
+  .nav.container
+    a.logo(href="index.html")
+      | 
+Movie
+    span RRific
+    .search-box
+      input#search-input(type="search", name, placeholder="Search movie")
+      i.bx.bx-search-alt
+    a.user(href="#")
+      img.user-img(src="/image/img/user2.jpg", alt)
+    .navbar
+      a.nav-link.nav-active(href="index.html")
+        i.bx.bxs-home-smile
+        span.nav-link-title Home
+      a.nav-link(href="#home")
+        i.bx.bxs-hot
+        span.nav-link-title Trending
+      a.nav-link(href="#home")
+        i.bx.bx-compass
+        span.nav-link-title Explore
+      a.nav-link(href="#home")
+        i.bx.bxs-tv
+        span.nav-link-title Movies
+      //
+         <a href="#home" class="nav-link">
+                            <i class='bx bx-tv'></i>
+                            <span class="nav-link-title">Webseries</span>
+                        </a> 
+//  Play container 
+.play-container.container
+  img.play-img(src="/image/play-page/play-background 8.webp", alt)
+  .play-text
+    h2 Flash
+    .rating
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star-half
+    .tags
+      span Action
+      span Adventure
+      span Gore
+    //  Trailer Button 
+    a.watch-btn(href="#")
+      i.bx.bxs-right-arrow
+      span Watch the trailer
+  i.bx.bxs-right-arrow.play-movie
+  //  Video 
+  .video-container
+    .video-box
+      video#myvideo(src="https://drive.google.com/uc?id=1JiJRdqq-iHX4IkLrfg_cX1mhV25hUVEB", controls)
+      i.bx.bx-x.close-video
+.about-movie.container
+  h2 Flash
+  p Worlds collide when the Flash uses his superpowers to travel back in time to change the events of the past. However, when his attempt to save his family inadvertently alters the future, he becomes trapped in a reality in which General Zod has returned, threatening annihilation. With no other superheroes to turn to, the Flash looks to coax a very different Batman out of retirement and rescue an imprisoned Kryptonian -- albeit not the one he's looking for.
+  //  Movie Cast 
+  h2.cast-heading Movie Cast
+  .cast
+    .cast-box
+      img.cast-img(src="/image/play-page/Ezra Miller.jpg", alt)
+      span.cast-title Ezra Miller
+    .cast-box
+      img.cast-img(src="/image/play-page/Ben Affleck.jpg", alt)
+      span.cast-title Ben Affleck
+    .cast-box
+      img.cast-img(src="/image/play-page/Michael Shannon.jpg", alt)
+      span.cast-title Michael Shannon
+    .cast-box
+      img.cast-img(src="/image/play-page/Sasha Calle.jpg", alt)
+      span.cast-title Sasha Calle
+    .cast-box
+      img.cast-img(src="/image/play-page/Michael Keaton.jpg", alt)
+      span.cast-title Michael Keaton
+    .cast-box
+      img.cast-img(src="/image/play-page/Maribel Verdu.jpg", alt)
+      span.cast-title Maribel Verdu
+//  Download 
+.download
+  h2.download-title Download Movie
+  .download-links
+    a(href="https://drive.google.com/uc?id=1JiJRdqq-iHX4IkLrfg_cX1mhV25hUVEB", download) 480p
+    a(href="https://drive.google.com/uc?id=1JiJRdqq-iHX4IkLrfg_cX1mhV25hUVEB", download) 720p
+    a(href="https://drive.google.com/uc?id=1JiJRdqq-iHX4IkLrfg_cX1mhV25hUVEB", download) 1080p
+//  COPYRIGHT 
+.copyright
+  p © Roudranil All Rights Resolved
+script(src="swiper-bundle.min.js")
+script(src="main.js")

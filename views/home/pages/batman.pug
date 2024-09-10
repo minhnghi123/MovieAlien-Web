@@ -1,0 +1,96 @@
+meta(charset="UTF-8")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+title Batman
+link(rel="stylesheet", href="../css/style.css")
+link(rel="shortcut icon", href="/image/img/fav-icon.pngg", type="image/x-icon")
+link(href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css", rel="stylesheet")
+header
+  .nav.container
+    a.logo(href="index.pug")
+      | 
+Movie
+    span RRific
+    .search-box
+      input#search-input(type="search", name, placeholder="Search movie")
+      i.bx.bx-search-alt
+    a.user(href="#")
+      img.user-img(src="image/img/user2.jpg", alt)
+    .navbar
+      a.nav-link.nav-active(href="index")
+        i.bx.bxs-home-smile
+        span.nav-link-title Home
+      a.nav-link(href="#home")
+        i.bx.bxs-hot
+        span.nav-link-title Trending
+      a.nav-link(href="#home")
+        i.bx.bx-compass
+        span.nav-link-title Explore
+      a.nav-link(href="#home")
+        i.bx.bxs-tv
+        span.nav-link-title Movies
+      //
+         <a href="#home" class="nav-link">
+                            <i class='bx bx-tv'></i>
+                            <span class="nav-link-title">Webseries</span>
+                        </a> 
+//  Play container 
+.play-container.container
+  img.play-img(src="../image/play-page/play-background 5.jpg", alt)
+  .play-text
+    h2 The Batman
+    .rating
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star-half
+    .tags
+      span Action
+      span Adventure
+      span 4K
+    //  Trailer Button 
+    a.watch-btn(href="#")
+      i.bx.bxs-right-arrow
+      span Watch the trailer
+  i.bx.bxs-right-arrow.play-movie
+  //  Video 
+  .video-container
+    .video-box
+      video#myvideo(src="https://drive.google.com/uc?id=1ejbeF9VsYtd9tRMMngcGL4K8NZduRwCz", controls)
+      i.bx.bx-x.close-video
+.about-movie.container
+  h2 The Batman
+  p When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.
+  //  Movie Cast 
+  h2.cast-heading Movie Cast
+  .cast
+    .cast-box
+      img.cast-img(src="/image/play-page/Robert pattinson.jpg", alt)
+      span.cast-title Robert Pattinson
+    .cast-box
+      img.cast-img(src="/image/play-page/Zoe Kravitz.jpg", alt)
+      span.cast-title Zoe Kravitz
+    .cast-box
+      img.cast-img(src="/image/play-page/Colin Farrell.jpg", alt)
+      span.cast-title Collin Farrell
+    .cast-box
+      img.cast-img(src="/image/play-page/Paul Dano.jpg", alt)
+      span.cast-title Paul Dano
+    .cast-box
+      img.cast-img(src="/image/play-page/Jeffrey Wright.jpg", alt)
+      span.cast-title Jeffrey Wright
+    .cast-box
+      img.cast-img(src="/image/play-page/Andy Serkis.jpg", alt)
+      span.cast-title Andy Serkis
+//  Download 
+.download
+  h2.download-title Download Movie
+  .download-links
+    a(href="https://drive.google.com/uc?id=1ejbeF9VsYtd9tRMMngcGL4K8NZduRwCz", download) 480p
+    a(href="https://drive.google.com/uc?id=1ejbeF9VsYtd9tRMMngcGL4K8NZduRwCz", download) 720p
+    a(href="https://drive.google.com/uc?id=1ejbeF9VsYtd9tRMMngcGL4K8NZduRwCz", download) 1080p
+//  COPYRIGHT 
+.copyright
+  p © Roudranil All Rights Resolved
+script(src="swiper-bundle.min.js")
+script(src="main.js")

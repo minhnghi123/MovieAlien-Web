@@ -1,0 +1,96 @@
+meta(charset="UTF-8")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+title Uncharted
+link(rel="stylesheet", href="/css/style.css")
+link(rel="shortcut icon", href="/image/img/fav-icon.png", type="image/x-icon")
+link(href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css", rel="stylesheet")
+header
+  .nav.container
+    a.logo(href="index.html")
+      | 
+Movie
+    span RRific
+    .search-box
+      input#search-input(type="search", name, placeholder="Search movie")
+      i.bx.bx-search-alt
+    a.user(href="#")
+      img.user-img(src="/image/img/user2.jpg", alt)
+    .navbar
+      a.nav-link.nav-active(href="index.html")
+        i.bx.bxs-home-smile
+        span.nav-link-title Home
+      a.nav-link(href="#home")
+        i.bx.bxs-hot
+        span.nav-link-title Trending
+      a.nav-link(href="#home")
+        i.bx.bx-compass
+        span.nav-link-title Explore
+      a.nav-link(href="#home")
+        i.bx.bxs-tv
+        span.nav-link-title Movies
+      //
+         <a href="#home" class="nav-link">
+                            <i class='bx bx-tv'></i>
+                            <span class="nav-link-title">Webseries</span>
+                        </a> 
+//  Play container 
+.play-container.container
+  img.play-img(src="/image/play-page/play-background 6.jpg", alt)
+  .play-text
+    h2 Uncharted
+    .rating
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star-half
+    .tags
+      span Action
+      span Adventure
+      span Thriller
+    //  Trailer Button 
+    a.watch-btn(href="#")
+      i.bx.bxs-right-arrow
+      span Watch the trailer
+  i.bx.bxs-right-arrow.play-movie
+  //  Video 
+  .video-container
+    .video-box
+      video#myvideo(src="https://drive.google.com/uc?id=1ZfS5Tof6wqbeu-xlYjynW3E6Nc1n3cdj", controls)
+      i.bx.bx-x.close-video
+.about-movie.container
+  h2 Uncharted
+  p Uncharted introduces audiences to street-smart Nathan Drake (Tom Holland) and showcases his first treasure-hunting adventure with wisecracking partner Victor “Sully” Sullivan (Mark Wahlberg). Inspired by the acclaimed video game series, this action-adventure epic spans the globe and follows Nate and Sully as they embark on the dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nate’s long-lost brother.
+  //  Movie Cast 
+  h2.cast-heading Movie Cast
+  .cast
+    .cast-box
+      img.cast-img(src="/image/play-page/Tom holland.jpg", alt)
+      span.cast-title Tom Holland
+    .cast-box
+      img.cast-img(src="/image/play-page/Antonio Banderas.jpg", alt)
+      span.cast-title Antonio Banderas
+    .cast-box
+      img.cast-img(src="/image/play-page/Sophia Ali.jpg", alt)
+      span.cast-title Sophia Ali
+    .cast-box
+      img.cast-img(src="/image/play-page/Mark Wahlberg.jpg", alt)
+      span.cast-title Mark Wahlberg
+    .cast-box
+      img.cast-img(src="/image/play-page/Tati Gabrielle.jpg", alt)
+      span.cast-title Tati Gabrielle
+    .cast-box
+      img.cast-img(src="/image/play-page/Alana Boden.jpg", alt)
+      span.cast-title Alana Boden
+//  Download 
+.download
+  h2.download-title Download Movie
+  .download-links
+    a(href="https://drive.google.com/uc?id=1ZfS5Tof6wqbeu-xlYjynW3E6Nc1n3cdj", download) 480p
+    a(href="https://drive.google.com/uc?id=1ZfS5Tof6wqbeu-xlYjynW3E6Nc1n3cdj", download) 720p
+    a(href="https://drive.google.com/uc?id=1ZfS5Tof6wqbeu-xlYjynW3E6Nc1n3cdj", download) 1080p
+//  COPYRIGHT 
+.copyright
+  p © Roudranil All Rights Resolved
+script(src="swiper-bundle.min.js")
+script(src="main.js")

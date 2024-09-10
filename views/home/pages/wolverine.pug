@@ -1,0 +1,96 @@
+meta(charset="UTF-8")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+title Wolverine
+link(rel="stylesheet", href="/css/style.css")
+link(rel="shortcut icon", href="/image/img/fav-icon.png", type="image/x-icon")
+link(href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css", rel="stylesheet")
+header
+  .nav.container
+    a.logo(href="index.html")
+      | 
+Movie
+    span RRific
+    .search-box
+      input#search-input(type="search", name, placeholder="Search movie")
+      i.bx.bx-search-alt
+    a.user(href="#")
+      img.user-img(src="/image/img/user2.jpg", alt)
+    .navbar
+      a.nav-link.nav-active(href="index.html")
+        i.bx.bxs-home-smile
+        span.nav-link-title Home
+      a.nav-link(href="#home")
+        i.bx.bxs-hot
+        span.nav-link-title Trending
+      a.nav-link(href="#home")
+        i.bx.bx-compass
+        span.nav-link-title Explore
+      a.nav-link(href="#home")
+        i.bx.bxs-tv
+        span.nav-link-title Movies
+      //
+         <a href="#home" class="nav-link">
+                            <i class='bx bx-tv'></i>
+                            <span class="nav-link-title">Webseries</span>
+                        </a> 
+//  Play container 
+.play-container.container
+  img.play-img(src="/image/play-page/play-background 7.jpg", alt)
+  .play-text
+    h2 Wolverine
+    .rating
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star
+      i.bx.bxs-star-half
+    .tags
+      span Action
+      span Adventure
+      span Gore
+    //  Trailer Button 
+    a.watch-btn(href="#")
+      i.bx.bxs-right-arrow
+      span Watch the trailer
+  i.bx.bxs-right-arrow.play-movie
+  //  Video 
+  .video-container
+    .video-box
+      video#myvideo(src="https://drive.google.com/uc?id=1Pbl-nBlhbVgufJToBCaXi5JqC5R4SV_Q", controls)
+      i.bx.bx-x.close-video
+.about-movie.container
+  h2 Wolverine
+  p Logan travels to Tokyo to meet Yashida, an old acquaintance who is dying. The situation regresses when Yashida offers to take away his healing abilities, but Logan refuses.
+  //  Movie Cast 
+  h2.cast-heading Movie Cast
+  .cast
+    .cast-box
+      img.cast-img(src="/image/play-page/Hugh Jackman.jpg", alt)
+      span.cast-title Hugh Jackman
+    .cast-box
+      img.cast-img(src="/image/play-page/Tao Okamoto.jpg", alt)
+      span.cast-title Tao Okamoto
+    .cast-box
+      img.cast-img(src="/image/play-page/Will Yun Lee.jpg", alt)
+      span.cast-title Will Yun Lee
+    .cast-box
+      img.cast-img(src="/image/play-page/Hiroyuki Sanada.jpg", alt)
+      span.cast-title Hiroyuki Sanada
+    .cast-box
+      img.cast-img(src="/image/play-page/Famke Janssen.jpg", alt)
+      span.cast-title Famke Janssen
+    .cast-box
+      img.cast-img(src="/image/play-page/Rila Fukushima.jpg", alt)
+      span.cast-title Rila Fukushima
+//  Download 
+.download
+  h2.download-title Download Movie
+  .download-links
+    a(href="https://drive.google.com/uc?id=1Pbl-nBlhbVgufJToBCaXi5JqC5R4SV_Q", download) 480p
+    a(href="https://drive.google.com/uc?id=1Pbl-nBlhbVgufJToBCaXi5JqC5R4SV_Q", download) 720p
+    a(href="https://drive.google.com/uc?id=1Pbl-nBlhbVgufJToBCaXi5JqC5R4SV_Q", download) 1080p
+//  COPYRIGHT 
+.copyright
+  p © Roudranil All Rights Resolved
+script(src="swiper-bundle.min.js")
+script(src="main.js")
